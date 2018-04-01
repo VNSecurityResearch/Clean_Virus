@@ -1,0 +1,78 @@
+﻿Tính được địa chỉ EntryPoint
+Kiểm tra Giá trị EP
+Từ EP -> LoadLibrary, GetProcessAddress
+45F1E7(kết thúc)
+LoadLibrary -> kernel32.dll
+GetProcessAddress -> GetModuleHandleA (trong Kernel32.dll)
+-> 0045f678
+
+
+
+Getmodulfilename
+
+
+45F752(){
+FreeLibrary(base Kernel32.dll){
+}
+}
+}
+45F1E1(){FreeLibrary(base Kernel32.dll)}
+GetModuleHandleA(MZP)
+KiFastSystemCallRet()
+40103B(0){đhieu}
+GetModuleHandle(){}
+43F3D3(){}
+43FEEC(){}
+43FF15(){}
+43ff1A(){
+GetInviromentString(){}
+}
+GetCommandLine(){
+
+}
+43cf69(){}
+43869f()
+{SetErrorMode}
+getmodulHandle(){}
+40E482(){}GetModuleFileName
+40E490(){
+Tach ten cua chuong trinh
+}
+40e49F(namefilenlg_dll){LoadLibraryA}
+49C789_GéttartupInfo
+RegKeyOpenExA(HKEY_CURRENT_USER, SoftWare/Winrar/General, 0, 1, 0)
+
+44f81c findwindowA
+đọc giá trị ở offset OEP + 0x771
+lấy OEP - giá trị vừa đọc được
+2001ba39
+
+
+5210E9 LoadLibrary(kernel32.dll)
+52110B GetProcessAddress(GetModuleHandleA)
+521135 GetMouleHandle(){
+(đoạn này get các hàm cần thiết: OpenMutexA, FreeLibrary, CloseHandle, CreateFileA, WriteFile, GetModuleFileNameA, CreateProcessA, GetWindowsDirectoryA, GetVolumInfoationA)
+}
+521147(){
+5214ED() GetVolumnInformation( c:\\)
+52150E() Tách lấy Origin Directory
+5 hàm con tính key 844AF3D-2B65-08F-1456-183B9C5F9
+5215ED() <- cal key
+521693(){CreateMutex({654F0229-473D-914E-545B-2554A98B5119})}
+521207 OpenMutex({654F0229-473D-914E-545B-2554A98B5119})
+5216A5 Openmutex( Check mutex)
+}
+521172() write virus on memory
+521182 GetModuleFilename() get tên của file mgr vừa tạo
+5211C4(){
+Lấy địa chỉ file để tạo một file với tên là filenamemgr.exe, nội dung file copy từ memory nơi mà hàm 521172() write virus;
+}
+45F1D9(){
+	45f741(){
+CreateProcessA mgr.exe vừa tạo
+}
+5211E1 FreeLibrary(){
+}
+Tính địa chỉ Entrypoint của file host và jmp tới nó.
+Thay đổi thông tin: oldEP, NumberofSection, SizeOfImage
+SetEndOfFile

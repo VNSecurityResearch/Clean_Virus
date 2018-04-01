@@ -1,0 +1,1 @@
+﻿địa chỉ EP cũ được tính băng cách địa chỉ EP hiện tại + 0x771 -> OEP

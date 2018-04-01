@@ -1,0 +1,2 @@
+﻿CreateFile: Tạo hoặc mở một tệp tin hoặc thiết bị vào ra (I/O).
+MapViewOfFile: Maps a view của tệp ánh xạ vào không gian địa chỉ ảo trong quá trình gọi.

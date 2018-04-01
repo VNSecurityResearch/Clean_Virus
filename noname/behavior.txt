@@ -1,0 +1,6 @@
+﻿trojan backdoor: NoName
+hành vi: sao chép chính nó sang một số thư mục
+và set key startup cùng user ở những thư mục đó
+lây nhiễm vào usb nếu phát hiện có usb, tạo bản sao chính nó trong usb
+tạo thư mục và ẩn thư mục chứa, tạo link khởi động.
+cuối cùng là lấy thông tin máy nạn nhân và tạo socket downdload mã độc từ bên ngoài vào máy nạn nhân

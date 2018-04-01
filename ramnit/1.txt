@@ -1,0 +1,53 @@
+﻿C:\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\VSTOR40
+C:\Program Files\Microsoft Visual Studio 10.0\Samples\1033\ReadMe.htm
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Google\Chrome\User Data\Default\Extensions\aapocclcgogkmnckokdopfmhonfmgoek\0.10_0\main.html
+404971(GetFunction){
+4048E6 virtualalloc
+40447F get func
+4044d8 get funC
+4044EA terminate
+4044FC ZwUnmapViewOfSection
+40450E VitualProtecEx
+404520 LoadLibraryA
+532 GetProcessAddress
+544 VirtualFreeEx
+556 GetModulHandleEx
+}
+404978(infection){
+}
+40487A(){
+Unviewofsection
+VirtualFreeEx
+VirtualAllocEx
+}
+88F(){}
+89A(){}
+
+Ca0832 no inject here
+createthread(828774)
+DeleteFileA
+GetcurrentProcess
+ModuleFileName
+ModuleHandleA
+SystemDerectoryA
+mpFilenameA
+eNameA
+tVolumInformationA
+DirectoryA
+obalAlloc
+obalFree
+2Snapshot
+OpenMutexA
+Process32First
+pViewOfFile
+VirtualAllocEx
+lstrcatA
+strcmpiA
+strcpyA
+eRemoteThread
+HandleMappingA
+CloseHandle
+TokenPrivileges
+RegCloseKey
+CopyfileExW
+4030ba

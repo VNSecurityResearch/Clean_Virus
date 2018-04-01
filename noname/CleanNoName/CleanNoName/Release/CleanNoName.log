@@ -1,0 +1,4 @@
+﻿  Source.cpp
+Source.cpp(147): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'HANDLE'
+  CleanNoName.vcxproj -> C:\Users\trieu\OneDrive\Documents\Visual Studio 2015\Projects\CleanNoName\Release\CleanNoName.exe
+  CleanNoName.vcxproj -> C:\Users\trieu\OneDrive\Documents\Visual Studio 2015\Projects\CleanNoName\Release\CleanNoName.pdb (Full PDB)

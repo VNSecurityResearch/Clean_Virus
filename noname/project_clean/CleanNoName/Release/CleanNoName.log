@@ -1,0 +1,5 @@
+﻿  Source.cpp
+Source.cpp(144): warning C4101: 'i': unreferenced local variable
+c:\users\trieu\onedrive\documents\visual studio 2015\projects\project_clean\cleannoname\source.cpp(173): warning C4715: 'suspendProcess': not all control paths return a value
+  CleanNoName.vcxproj -> C:\Users\trieu\OneDrive\Documents\Visual Studio 2015\Projects\project_clean\Release\CleanNoName.exe
+  CleanNoName.vcxproj -> C:\Users\trieu\OneDrive\Documents\Visual Studio 2015\Projects\project_clean\Release\CleanNoName.pdb (Full PDB)
